@@ -1,0 +1,1 @@
+Native Base patch that doesn't cause errors due to using unmaintained plugin.
