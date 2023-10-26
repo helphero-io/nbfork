@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { View, ViewPropTypes } from 'react-native';
+import { View } from 'react-native';
 import PropTypes from 'prop-types';
 import { connectStyle } from 'native-base-shoutem-theme';
-
+const { ViewPropTypes } = require('deprecated-react-native-prop-types')
 import mapPropsToStyleNames from '../utils/mapPropsToStyleNames';
 
 import { ToastContainer as Toast } from './ToastContainer';
